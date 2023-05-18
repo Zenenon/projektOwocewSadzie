@@ -25,7 +25,16 @@ public abstract class Czlowiek {
     }
     public int getPozycja_x(){return this.pozycja_x;
     }
+
+    public void setPozycja_x(int pozycja_x) {
+        this.pozycja_x = pozycja_x;
+    }
+
     public int getPozycja_y(){return this.pozycja_y;
+    }
+
+    public void setPozycja_y(int pozycja_y) {
+        this.pozycja_y = pozycja_y;
     }
 }
 

@@ -1,27 +1,31 @@
 package org.example;
 
-public class Czlowiek {
+public abstract class Czlowiek {
     private String imie;
-    private double szybkosc;
+    private int szybkosc;
     private int max_pracy;
-    private int pozycja;
+    private int pozycja_x;
+    private int pozycja_y;
 
-    public Czlowiek(String imie, double szybkosc, int max_pracy, int pozycja) {
+    public Czlowiek(String imie, int szybkosc, int max_pracy, int pozycja_x, int pozycja_y) {
         this.imie = imie;
         this.szybkosc = szybkosc;
         this.max_pracy = max_pracy;
-        this.pozycja = pozycja;
+        this.pozycja_x = pozycja_x;
+        this.pozycja_y = pozycja_y;
     }
     public String getImie(){
         return this.imie;
     }
-    public double getSzybkosc(){
+    public int getSzybkosc(){
         return this.szybkosc;
     }
-    public double getMax_pracy(){
+    public int getMax_pracy(){
         return this.max_pracy;
     }
-    public double getPozycja(){return this.pozycja;
+    public int getPozycja_x(){return this.pozycja_x;
+    }
+    public int getPozycja_y(){return this.pozycja_y;
     }
 }
 

@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Random;
+
 public abstract class Czlowiek {
     private String imie;
     private int szybkosc;
@@ -35,8 +37,12 @@ public abstract class Czlowiek {
     public void setPozycja_y(int pozycja_y) {
         this.pozycja_y = pozycja_y;
     }
-    public void ruch(int pozycja_x, int pozycja_y){
 
+    //metoda odpowiedzialna za ruch człowieka
+    public void ruch(int pozycja_x, int pozycja_y){
+        Random generator = new Random();
+        pozycja_x = generator.nextInt(10);
+        pozycja_y = generator.nextInt(10);
     }
 }
 

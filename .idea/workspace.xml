@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78127bd1-329b-4cad-90d8-dbc44bc1dcaf" name="Changes" comment="dodanie metody sprawdzającej odległość od dorosłego">
+    <list default="true" id="78127bd1-329b-4cad-90d8-dbc44bc1dcaf" name="Changes" comment="zarys ruchu pracowników">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Drzewo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Drzewo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dorosly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dorosly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dziecko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dziecko.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +80,7 @@
       <updated>1684394490663</updated>
       <workItem from="1684394491429" duration="5242000" />
       <workItem from="1684833402631" duration="5657000" />
+      <workItem from="1684860136861" duration="2939000" />
     </task>
     <task id="LOCAL-00001" summary="dodanie klasy drzewo i człowiek">
       <created>1684395776743</created>
@@ -108,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684833743330</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="zarys ruchu pracowników">
+      <created>1684860278627</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684860278627</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +158,17 @@
             </list>
           </value>
         </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -157,6 +177,7 @@
     <MESSAGE value="zmiana klasy człowiek na abstrakt oraz dodanie klasy dorosły i dziecko" />
     <MESSAGE value="dodanie setterów do pozycji" />
     <MESSAGE value="dodanie metody sprawdzającej odległość od dorosłego" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie metody sprawdzającej odległość od dorosłego" />
+    <MESSAGE value="zarys ruchu pracowników" />
+    <option name="LAST_COMMIT_MESSAGE" value="zarys ruchu pracowników" />
   </component>
 </project>

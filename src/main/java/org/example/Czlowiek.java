@@ -35,6 +35,9 @@ public abstract class Czlowiek {
     public void setPozycja_y(int pozycja_y) {
         this.pozycja_y = pozycja_y;
     }
+    public void ruch(int pozycja_x, int pozycja_y){
+
+    }
 }
 
 

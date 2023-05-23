@@ -27,4 +27,28 @@ public class Drzewo {
     public int getPozycja_x(){return this.pozycja_x; }
     public int getPozycja_y(){return this.pozycja_y; }
     public boolean getCzy_wysokie(){return this.czy_wysokie;}
+
+    public void setNazwa(String nazwa) {
+        this.nazwa = nazwa;
+    }
+
+    public void setIle_owocow(int ile_owocow) {
+        this.ile_owocow = ile_owocow;
+    }
+
+    public void setRodzaj_owocow(int rodzaj_owocow) {
+        this.rodzaj_owocow = rodzaj_owocow;
+    }
+
+    public void setPozycja_x(int pozycja_x) {
+        this.pozycja_x = pozycja_x;
+    }
+
+    public void setPozycja_y(int pozycja_y) {
+        this.pozycja_y = pozycja_y;
+    }
+
+    public void setCzy_wysokie(boolean czy_wysokie) {
+        this.czy_wysokie = czy_wysokie;
+    }
 }

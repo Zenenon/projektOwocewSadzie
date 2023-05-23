@@ -16,24 +16,43 @@ public abstract class Czlowiek {
         this.pozycja_x = pozycja_x;
         this.pozycja_y = pozycja_y;
     }
-    public String getImie(){
-        return this.imie;
+
+    public String getImie() {
+        return imie;
     }
-    public int getSzybkosc(){
-        return this.szybkosc;
+
+    public void setImie(String imie) {
+        this.imie = imie;
     }
-    public int getMax_pracy(){
-        return this.max_pracy;
+
+    public int getSzybkosc() {
+        return szybkosc;
     }
-    public int getPozycja_x(){return this.pozycja_x;
+
+    public void setSzybkosc(int szybkosc) {
+        this.szybkosc = szybkosc;
+    }
+
+    public int getMax_pracy() {
+        return max_pracy;
+    }
+
+    public void setMax_pracy(int max_pracy) {
+        this.max_pracy = max_pracy;
+    }
+
+    public int getPozycja_x() {
+        return pozycja_x;
     }
 
     public void setPozycja_x(int pozycja_x) {
         this.pozycja_x = pozycja_x;
     }
 
-    public int getPozycja_y(){return this.pozycja_y;
+    public int getPozycja_y() {
+        return pozycja_y;
     }
+
     public void setPozycja_y(int pozycja_y) {
         this.pozycja_y = pozycja_y;
     }

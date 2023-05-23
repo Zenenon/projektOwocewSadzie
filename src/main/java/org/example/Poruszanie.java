@@ -5,4 +5,5 @@ public class Poruszanie implements Ruch{
     public int zbierz_owoc() {
         return 0;
     }
+    //to jest komentarz
 }

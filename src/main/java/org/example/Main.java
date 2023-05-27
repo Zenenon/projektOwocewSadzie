@@ -1,14 +1,34 @@
 package org.example;
 
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        Drzewo wisnia1 = new Drzewo("wisnia", 10, 1, true, 3, 2);
-        Drzewo grucha1 = new Drzewo("grucha", 15, 2, true, 7, 3);
-        Krzew jagoda1 = new Krzew("jagoda", 6, 1, false, 5, 3);
+        int tura = 0;
+        boolean czy_zostaly_owoce = true;
+        int[][] tablica = new int[10][10];
+        for(int i = 0; i < 10; i++){
+            for(int j = 0; j < 10; j++) {
+                tablica[i][j] = 0;
+            }
+        }
+        Drzewo wisnia = new Drzewo("Wisnia",10,1,true,0,0);
+        Drzewo czeresnia = new Drzewo("Czeresnia",10,1,true,1,0);
+        Drzewo jablon = new Drzewo("Jablon",10,2,true,2,0);
+        Drzewo gruszka = new Drzewo("Gruszka",10,2,true,3,0);
 
-        Dorosly andrzej = new Dorosly("Andrzej", 2, 10, 1, 0);
-        Dorosly maja = new Dorosly("Maja", 2, 10, 3, 5);
-        Dziecko piotr = new Dziecko("Piotr", 1, 5, 1, 6);
+        Dorosly jacek = new Dorosly("Jacek",2,10,1,1);
+        Dorosly placek = new Dorosly("Placek",2,10,2,2);
+
+        tablica[0][0] = 1;
+        tablica[1][0] = 1;
+        tablica[2][0] = 1;
+        tablica[3][0] = 1;
+        tablica[1][1] = 2;
+        tablica[2][2] = 2;
+
+        jacek.ruch(jacek.getPozycja_x(),jacek.getPozycja_y());
+
+
+
     }
 }

@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78127bd1-329b-4cad-90d8-dbc44bc1dcaf" name="Changes" comment="aktualizacja weronikaBranch z wersja z zenonBranch">
+    <list default="true" id="78127bd1-329b-4cad-90d8-dbc44bc1dcaf" name="Changes" comment="zmiana klasy człowiek na abstrakt oraz dodanie klasy dorosły i dziecko">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dorosly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dorosly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Drzewo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Drzewo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dziecko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dziecko.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Poruszanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Poruszanie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -132,7 +134,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/zenenonBranch" />
+                        <option value="weronikaBranch" />
                       </list>
                     </value>
                   </entry>

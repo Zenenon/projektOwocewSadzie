@@ -4,15 +4,15 @@ import java.util.Random;
 import java.util.ArrayList;
 public class Czlowiek {
     private String imie;
-    private int szybkosc;
+    //private int szybkosc;
     private int max_pracy;
     private int pozycja_x;
     private int pozycja_y;
     private int zebrane_owoce;
 
-    public Czlowiek(String imie, int szybkosc, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce) {
+    public Czlowiek(String imie, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce) {
         this.imie = imie;
-        this.szybkosc = szybkosc;
+        //this.szybkosc = szybkosc;
         this.max_pracy = max_pracy;
         this.pozycja_x = pozycja_x;
         this.pozycja_y = pozycja_y;
@@ -20,23 +20,19 @@ public class Czlowiek {
     }
 
     public String getImie() {
-        return imie;
+        return this.imie;
     }
 
     public void setImie(String imie) {
         this.imie = imie;
     }
 
-    public int getSzybkosc() {
-        return szybkosc;
-    }
+    //public int getSzybkosc() {return szybkosc;}
 
-    public void setSzybkosc(int szybkosc) {
-        this.szybkosc = szybkosc;
-    }
+    //public void setSzybkosc(int szybkosc) {this.szybkosc = szybkosc;}
 
     public int getMax_pracy() {
-        return max_pracy;
+        return this.max_pracy;
     }
 
     public void setMax_pracy(int max_pracy) {
@@ -44,7 +40,7 @@ public class Czlowiek {
     }
 
     public int getPozycja_x() {
-        return pozycja_x;
+        return this.pozycja_x;
     }
 
     public void setPozycja_x(int pozycja_x) {
@@ -52,7 +48,7 @@ public class Czlowiek {
     }
 
     public int getPozycja_y() {
-        return pozycja_y;
+        return this.pozycja_y;
     }
 
     public void setPozycja_y(int pozycja_y) {
@@ -62,6 +58,7 @@ public class Czlowiek {
     public void setZebrane_owoce(int zebrane_owoce){
         this.zebrane_owoce = zebrane_owoce;
     }
+    public int getZebrane_owoce(int zebrane_owoce){return this.zebrane_owoce;}
 
     //metoda odpowiedzialna za ruch człowieka
     public void ruch(int pozycja_x, int pozycja_y, int tura){
@@ -98,13 +95,15 @@ public class Czlowiek {
         }
         tura++;
     }
-    //Dorosly jacek = new Dorosly("Jacek",2,10,1,1,0);
-    Dorosly placek = new Dorosly("Placek",2,10,2,2,0);
-    // deklaracja listy ludzi
-    ArrayList<Czlowiek> ludzie = new ArrayList<>();
-    Czlowiek jacek = new Czlowiek("Jacek",2,10,1,1,0);
-
-    ludzie.add(Czlowiek("Jacek",2,10,1,1,0));
+    public static void main(String[] args) {
+        //Dorosly jacek = new Dorosly("Jacek",2,10,1,1,0);
+        Dorosly placek = new Dorosly("Placek",  10, 2, 2, 0);
+        // deklaracja listy ludzi
+        ArrayList<Czlowiek> ludzie = new ArrayList<>();
+        Dorosly jacek = new Dorosly("Jacek",  10, 1, 1, 0);
+        ludzie.add(jacek);
+        System.out.printf("x=%d, y=%d", jacek.getPozycja_x(), jacek.getPozycja_y());
+    }
 }
 
 

@@ -1,5 +1,5 @@
 package org.example;
-
+import java.util.Arrays;
 public class Drzewo {
     private String nazwa;
     private int ile_owocow;

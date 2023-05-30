@@ -1,8 +1,8 @@
 package org.example;
 
 public class Dziecko extends Czlowiek{
-    public Dziecko(String imie, int szybkosc, int max_pracy, int pozycja_x, int pozycja_y) {
-        super(imie, szybkosc, max_pracy, pozycja_x, pozycja_y);
+    public Dziecko(String imie, int szybkosc, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce) {
+        super(imie, szybkosc, max_pracy, pozycja_x, pozycja_y, zebrane_owoce);
     }
     //sprawdzam, czy dziecko jest oddalone o nie więcej niż 3 pola od dorosłego
     Boolean jedz_owoce(int pozycja_x, int pozycja_y){

@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78127bd1-329b-4cad-90d8-dbc44bc1dcaf" name="Changes" comment="zmiana klasy człowiek na abstrakt oraz dodanie klasy dorosły i dziecko">
+    <list default="true" id="78127bd1-329b-4cad-90d8-dbc44bc1dcaf" name="Changes" comment="aktualizacja weronikaBranch z wersja z zenonBranch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dorosly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dorosly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Drzewo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Drzewo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dziecko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dziecko.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Poruszanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Poruszanie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684399285968</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="aktualizacja weronikaBranch z wersja z zenonBranch">
+      <created>1685274486365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685274486365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +132,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/weronikaBranch" />
+                        <option value="origin/zenenonBranch" />
                       </list>
                     </value>
                   </entry>
@@ -134,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dodanie klasy drzewo i człowiek" />
     <MESSAGE value="zmiana klasy człowiek na abstrakt oraz dodanie klasy dorosły i dziecko" />
-    <option name="LAST_COMMIT_MESSAGE" value="zmiana klasy człowiek na abstrakt oraz dodanie klasy dorosły i dziecko" />
+    <MESSAGE value="aktualizacja weronikaBranch z wersja z zenonBranch" />
+    <option name="LAST_COMMIT_MESSAGE" value="aktualizacja weronikaBranch z wersja z zenonBranch" />
   </component>
 </project>

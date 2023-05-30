@@ -1,9 +1,13 @@
 package org.example;
-
-public class Poruszanie implements Ruch{
+import java.util.Arrays;
+abstract class Poruszanie implements Ruch{
     @Override
     public int zbierz_owoc() {
         return 0;
     }
-    //to jest komentarz
+
+    public void porusz_sie() {
+
+    }
+
 }

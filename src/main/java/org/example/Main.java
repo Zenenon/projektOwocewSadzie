@@ -1,4 +1,5 @@
 package org.example;
+import java.util.Arrays;
 
 
 public class Main {
@@ -16,8 +17,8 @@ public class Main {
         Drzewo jablon = new Drzewo("Jablon",10,2,true,2,0);
         Drzewo gruszka = new Drzewo("Gruszka",10,2,true,3,0);
 
-        Dorosly jacek = new Dorosly("Jacek",2,10,1,1);
-        Dorosly placek = new Dorosly("Placek",2,10,2,2);
+        //Dorosly jacek = new Dorosly("Jacek",2,10,1,1,0);
+        //Dorosly placek = new Dorosly("Placek",2,10,2,2,0);
 
         tablica[0][0] = 1;
         tablica[1][0] = 1;
@@ -26,7 +27,7 @@ public class Main {
         tablica[1][1] = 2;
         tablica[2][2] = 2;
 
-        jacek.ruch(jacek.getPozycja_x(),jacek.getPozycja_y());
+        //jacek.ruch(jacek.getPozycja_x(),jacek.getPozycja_y(),tura);
 
 
 

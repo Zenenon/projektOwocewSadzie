@@ -31,5 +31,9 @@ public class Main {
 
 
 
+
+        System.out.println("Hello world!");
+        // sprawdzam czy mi dziala :)
+
     }
 }

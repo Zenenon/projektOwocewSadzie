@@ -58,7 +58,7 @@ public abstract class Czlowiek {
     }
 
     //metoda odpowiedzialna za ruch człowieka
-    public void ruch(int pozycja_x, int pozycja_y){
+    public void ruch(){
         Random generator = new Random();
         pozycja_x = generator.nextInt(10);
         pozycja_y = generator.nextInt(10);

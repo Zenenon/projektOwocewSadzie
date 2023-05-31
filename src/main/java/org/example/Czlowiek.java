@@ -89,17 +89,17 @@ public class Czlowiek {
         //System.out.printf(" 1111   x=%d, y=%d tura: %d\n",x,y,tura+1);
 
         if(x==0){
-            pozycja_x--;
+            this.pozycja_x--;
         }
         if(x==2){
-            pozycja_x++;
+            this.pozycja_x++;
         }
 
         if(y==0){
-            pozycja_y--;
+            this.pozycja_y--;
         }
         if(y==2){
-            pozycja_y++;
+            this.pozycja_y++;
         }
         // jezeli czlowiek bedzie probowal wyjsc poza sad to zostanie zatrzymany
         if(pozycja_x>10){

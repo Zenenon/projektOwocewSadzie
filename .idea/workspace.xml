@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78127bd1-329b-4cad-90d8-dbc44bc1dcaf" name="Changes" comment="dodanie ArrayList obiektu Czlowiek, ktora ma umozliwic sterowanie pozycja">
+    <list default="true" id="78127bd1-329b-4cad-90d8-dbc44bc1dcaf" name="Changes" comment="dodana tura, jeszcze nie do konca dzialajacy ruch ale juz blisko :)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dorosly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dorosly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dziecko.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dziecko.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685473585732</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dodana tura, jeszcze nie do konca dzialajacy ruch ale juz blisko :)">
+      <created>1685524001116</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685524001116</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +163,7 @@
     <MESSAGE value="aktualizacja weronikaBranch z wersja z zenonBranch" />
     <MESSAGE value="zmiana klasy człowiek na abstrakt oraz dodanie klasy dorosły i dziecko" />
     <MESSAGE value="dodanie ArrayList obiektu Czlowiek, ktora ma umozliwic sterowanie pozycja" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie ArrayList obiektu Czlowiek, ktora ma umozliwic sterowanie pozycja" />
+    <MESSAGE value="dodana tura, jeszcze nie do konca dzialajacy ruch ale juz blisko :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodana tura, jeszcze nie do konca dzialajacy ruch ale juz blisko :)" />
   </component>
 </project>

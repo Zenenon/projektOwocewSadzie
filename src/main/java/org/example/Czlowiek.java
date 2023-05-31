@@ -9,14 +9,16 @@ public class Czlowiek {
     private int pozycja_x;
     private int pozycja_y;
     private int zebrane_owoce;
+    private static int tura=0;
 
-    public Czlowiek(String imie, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce) {
+    public Czlowiek(String imie, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce, int tura) {
         this.imie = imie;
         //this.szybkosc = szybkosc;
         this.max_pracy = max_pracy;
         this.pozycja_x = pozycja_x;
         this.pozycja_y = pozycja_y;
         this.zebrane_owoce = zebrane_owoce;
+        this.tura = tura;
     }
 
     public String getImie() {
@@ -59,14 +61,33 @@ public class Czlowiek {
         this.zebrane_owoce = zebrane_owoce;
     }
     public int getZebrane_owoce(int zebrane_owoce){return this.zebrane_owoce;}
+    public int getTura(int tura){return this.tura;}
+    public static void main(String[] args) {
+        //Dorosly jacek = new Dorosly("Jacek",2,10,1,1,0);
+        Dorosly placek = new Dorosly("Placek",  10, 2, 2, 0,0);
+        // deklaracja listy ludzi
+        ArrayList<Czlowiek> ludzie = new ArrayList<>();
+        Dorosly jacek = new Dorosly("Jacek",  10, 1, 3, 0,0);
+        ludzie.add(jacek);
+
+        while(jacek.getTura(tura)<50) {
+            jacek.ruch(jacek.getPozycja_x(), jacek.getPozycja_y());
+            System.out.printf("x=%d, y=%d tura: %d\n", jacek.getPozycja_x(), jacek.getPozycja_y(), tura);
+        }
+    }
 
     //metoda odpowiedzialna za ruch człowieka
-    public void ruch(int pozycja_x, int pozycja_y, int tura){
+    public void ruch(int pozycja_x, int pozycja_y){
+        getTura(tura);
+        getPozycja_x();
+        getPozycja_y();
         Random generator = new Random();
         int x = -1;
         int y = -1;
-        x = generator.nextInt(2);
-        y = generator.nextInt(2);
+        x = generator.nextInt(3);
+        y = generator.nextInt(3);
+        //System.out.printf(" 1111   x=%d, y=%d tura: %d\n",x,y,tura+1);
+
         if(x==0){
             pozycja_x--;
         }
@@ -95,15 +116,7 @@ public class Czlowiek {
         }
         tura++;
     }
-    public static void main(String[] args) {
-        //Dorosly jacek = new Dorosly("Jacek",2,10,1,1,0);
-        Dorosly placek = new Dorosly("Placek",  10, 2, 2, 0);
-        // deklaracja listy ludzi
-        ArrayList<Czlowiek> ludzie = new ArrayList<>();
-        Dorosly jacek = new Dorosly("Jacek",  10, 1, 1, 0);
-        ludzie.add(jacek);
-        System.out.printf("x=%d, y=%d", jacek.getPozycja_x(), jacek.getPozycja_y());
-    }
+
 }
 
 

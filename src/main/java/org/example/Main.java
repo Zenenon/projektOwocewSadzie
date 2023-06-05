@@ -10,13 +10,13 @@ public class Main {
                 tablica[i][j] = 0;
             }
         }
-        /*
+
         Drzewo wisnia = new Drzewo("Wisnia",10,1,true,0,0);
         przypisz_pozycje_male(tablica, wisnia.getPozycja_x(), wisnia.getPozycja_y());
 
         Drzewo czeresnia = new Drzewo("Czeresnia",10,1,true,1,0);
         przypisz_pozycje_male(tablica, czeresnia.getPozycja_x(), czeresnia.getPozycja_y());
-*/
+
         Drzewo jablon = new Drzewo("Jablon",10,2,true,2,6);
         przypisz_pozycje_duze(tablica, jablon.getPozycja_x(), jablon.getPozycja_y());
 

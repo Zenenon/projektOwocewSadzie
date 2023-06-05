@@ -17,4 +17,6 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
 mainClassName = 'org.example.Main'
+

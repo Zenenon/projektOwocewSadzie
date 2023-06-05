@@ -1,4 +1,5 @@
 package org.example;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,11 +21,13 @@ public class Main {
         Drzewo jablon = new Drzewo("Jablon",10,2,true,2,6);
         przypisz_pozycje_duze(tablica, jablon.getPozycja_x(), jablon.getPozycja_y());
 
+
         Drzewo gruszka = new Drzewo("Gruszka",10,2,true,3,3);
         przypisz_pozycje_srednie(tablica, gruszka.getPozycja_x(), gruszka.getPozycja_y());
 
         Dorosly jacek = new Dorosly("Jacek",0,10,1,1);
         Dorosly placek = new Dorosly("Placek",2,10,2,2);
+
 
         tablica[0][0] = 1;
         tablica[1][0] = 1;
@@ -33,6 +36,7 @@ public class Main {
         tablica[1][1] = 2;
         tablica[2][2] = 2;
         System.out.println(tablica[2][0]);
+
 
         while (drzewa_z_owocami > 0){
             if(tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] == 7){
@@ -50,9 +54,11 @@ public class Main {
                 drzewa_z_owocami--;
             }
 
+
             jacek.ruch();
             System.out.println(jacek.getPozycja_x() + " " + jacek.getPozycja_y());
             System.out.println("  ");
+
 
 
             ile_tur++;
@@ -70,4 +76,5 @@ public class Main {
         static void przypisz_pozycje_male(int[][] tablica, int pozycja_x, int pozycja_y){
         tablica[pozycja_x][pozycja_y]=9;
         }
+
 }

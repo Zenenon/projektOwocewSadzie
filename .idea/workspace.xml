@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="78127bd1-329b-4cad-90d8-dbc44bc1dcaf" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Czlowiek.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +24,11 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+
         <projects_view>
           <tree_state>
             <expand>
@@ -32,6 +36,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="projektOwocewSadzie" type="f1a62948:ProjectNode" />
               </path>
+
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="projektOwocewSadzie" type="f1a62948:ProjectNode" />
@@ -53,6 +58,7 @@
                 <item name="projektOwocewSadzie" type="f1a62948:ProjectNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
+
             </expand>
             <select />
           </tree_state>
@@ -70,7 +76,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="zenenonBranch" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -260,6 +266,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684394490663</updated>
+
       <workItem from="1684394491429" duration="5242000" />
       <workItem from="1684833402631" duration="5657000" />
       <workItem from="1684860136861" duration="5882000" />
@@ -272,6 +279,7 @@
       <workItem from="1685967146681" duration="424000" />
       <workItem from="1685967590475" duration="2440000" />
       <workItem from="1685974533900" duration="7944000" />
+
     </task>
     <task id="LOCAL-00001" summary="dodanie klasy drzewo i człowiek">
       <created>1684395776743</created>
@@ -287,34 +295,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684399285968</updated>
     </task>
-    <task id="LOCAL-00003" summary="dodanie setterów do pozycji">
-      <created>1684405533921</created>
+    <task id="LOCAL-00003" summary="aktualizacja weronikaBranch z wersja z zenonBranch">
+      <created>1685274486365</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1684405533921</updated>
+      <updated>1685274486365</updated>
     </task>
-    <task id="LOCAL-00004" summary="dodanie metody sprawdzającej odległość od dorosłego">
-      <created>1684833743330</created>
+    <task id="LOCAL-00004" summary="dodanie ArrayList obiektu Czlowiek, ktora ma umozliwic sterowanie pozycja">
+      <created>1685473585732</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1684833743330</updated>
+      <updated>1685473585732</updated>
     </task>
-    <task id="LOCAL-00005" summary="zarys ruchu pracowników">
-      <created>1684860278627</created>
+    <task id="LOCAL-00005" summary="dodana tura, jeszcze nie do konca dzialajacy ruch ale juz blisko :)">
+      <created>1685524001116</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1684860278627</updated>
+      <updated>1685524001116</updated>
     </task>
-    <task id="LOCAL-00006" summary="dodanie metody odpowiedzialnej za ruch pracownika">
-      <created>1684867305381</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1684867305381</updated>
-    </task>
+
     <task id="LOCAL-00007" summary="poprawki kodu">
       <created>1684872940723</created>
       <option name="number" value="00007" />
@@ -337,6 +339,7 @@
       <updated>1685973411934</updated>
     </task>
     <option name="localTasksCounter" value="10" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +356,9 @@
                   <entry key="branch">
                     <value>
                       <list>
+
                         <option value="origin/master" />
+
                       </list>
                     </value>
                   </entry>
@@ -364,36 +369,12 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/weronikaBranch" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="*" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dodanie klasy drzewo i człowiek" />
+    <MESSAGE value="aktualizacja weronikaBranch z wersja z zenonBranch" />
     <MESSAGE value="zmiana klasy człowiek na abstrakt oraz dodanie klasy dorosły i dziecko" />
+
     <MESSAGE value="dodanie setterów do pozycji" />
     <MESSAGE value="dodanie metody sprawdzającej odległość od dorosłego" />
     <MESSAGE value="zarys ruchu pracowników" />
@@ -402,5 +383,6 @@
     <MESSAGE value="poprawki kodu" />
     <MESSAGE value="." />
     <option name="LAST_COMMIT_MESSAGE" value="." />
+
   </component>
 </project>

@@ -4,14 +4,14 @@ import java.util.Random;
 
 public abstract class Czlowiek {
     private String imie;
-    private int szybkosc;
+    private int zebrane_owoce;
     private int max_pracy;
     private int pozycja_x;
     private int pozycja_y;
 
-    public Czlowiek(String imie, int szybkosc, int max_pracy, int pozycja_x, int pozycja_y) {
+    public Czlowiek(String imie, int zebrane_owoce, int max_pracy, int pozycja_x, int pozycja_y) {
         this.imie = imie;
-        this.szybkosc = szybkosc;
+        this.zebrane_owoce = zebrane_owoce;
         this.max_pracy = max_pracy;
         this.pozycja_x = pozycja_x;
         this.pozycja_y = pozycja_y;
@@ -25,12 +25,12 @@ public abstract class Czlowiek {
         this.imie = imie;
     }
 
-    public int getSzybkosc() {
-        return szybkosc;
+    public int getZebrane_owoce() {
+        return zebrane_owoce;
     }
 
-    public void setSzybkosc(int szybkosc) {
-        this.szybkosc = szybkosc;
+    public void setZebrane_owoce(int zebrane_owoce) {
+        this.zebrane_owoce = zebrane_owoce;
     }
 
     public int getMax_pracy() {
@@ -59,9 +59,44 @@ public abstract class Czlowiek {
 
     //metoda odpowiedzialna za ruch człowieka
     public void ruch(){
+        getPozycja_x();
+        getPozycja_y();
         Random generator = new Random();
-        pozycja_x = generator.nextInt(10);
-        pozycja_y = generator.nextInt(10);
+        int x = -1;
+        int y = -1;
+        x = generator.nextInt(3);
+        y = generator.nextInt(3);
+        //System.out.printf(" 1111   x=%d, y=%d tura: %d\n",x,y,tura+1);
+
+        if(x==0){
+            this.pozycja_x--;
+        }
+        if(x==2){
+            this.pozycja_x++;
+        }
+
+        if(y==0){
+            this.pozycja_y--;
+        }
+        if(y==2){
+            this.pozycja_y++;
+        }
+        // jezeli czlowiek bedzie probowal wyjsc poza sad to zostanie zatrzymany
+        if(pozycja_x>10){
+            this.pozycja_x--;
+        }
+        if(pozycja_x<0){
+            this.pozycja_x++;
+        }
+        if(pozycja_y>10){
+            this.pozycja_y--;
+        }
+        if(pozycja_y<0){
+            this.pozycja_y++;
+        }
+    }
+    public void zbior(int zebrane_owoce){
+        this.zebrane_owoce += zebrane_owoce;
     }
 }
 

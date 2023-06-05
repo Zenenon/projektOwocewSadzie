@@ -4,16 +4,19 @@ import java.util.Random;
 import java.util.ArrayList;
 public class Czlowiek {
     private String imie;
-    //private int szybkosc;
+
+    private int zebrane_owoce;
     private int max_pracy;
     private int pozycja_x;
     private int pozycja_y;
     private int zebrane_owoce;
     private static int tura=0;
 
-    public Czlowiek(String imie, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce, int tura) {
+
+    public Czlowiek(String imie, int zebrane_owoce, int max_pracy, int pozycja_x, int pozycja_y) {
         this.imie = imie;
-        //this.szybkosc = szybkosc;
+        this.zebrane_owoce = zebrane_owoce;
+
         this.max_pracy = max_pracy;
         this.pozycja_x = pozycja_x;
         this.pozycja_y = pozycja_y;
@@ -29,9 +32,15 @@ public class Czlowiek {
         this.imie = imie;
     }
 
-    //public int getSzybkosc() {return szybkosc;}
 
-    //public void setSzybkosc(int szybkosc) {this.szybkosc = szybkosc;}
+    public int getZebrane_owoce() {
+        return zebrane_owoce;
+    }
+
+    public void setZebrane_owoce(int zebrane_owoce) {
+        this.zebrane_owoce = zebrane_owoce;
+    }
+
 
     public int getMax_pracy() {
         return this.max_pracy;
@@ -77,8 +86,9 @@ public class Czlowiek {
     }
 
     //metoda odpowiedzialna za ruch człowieka
-    public void ruch(int pozycja_x, int pozycja_y){
-        getTura(tura);
+
+    public void ruch(){
+
         getPozycja_x();
         getPozycja_y();
         Random generator = new Random();
@@ -103,18 +113,21 @@ public class Czlowiek {
         }
         // jezeli czlowiek bedzie probowal wyjsc poza sad to zostanie zatrzymany
         if(pozycja_x>10){
-            pozycja_x--;
+            this.pozycja_x--;
         }
         if(pozycja_x<0){
-            pozycja_x++;
+            this.pozycja_x++;
         }
         if(pozycja_y>10){
-            pozycja_y--;
+            this.pozycja_y--;
         }
         if(pozycja_y<0){
-            pozycja_y++;
+            this.pozycja_y++;
         }
-        tura++;
+    }
+    public void zbior(int zebrane_owoce){
+        this.zebrane_owoce += zebrane_owoce;
+
     }
 
 }

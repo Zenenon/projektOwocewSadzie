@@ -9,6 +9,7 @@ public class Czlowiek {
     private int pozycja_x;
     private int pozycja_y;
     private int zebrane_owoce;
+    private int ile_przerw;
 
 
     public Czlowiek(String imie, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce) {
@@ -61,6 +62,9 @@ public class Czlowiek {
         this.zebrane_owoce = zebrane_owoce;
     }
     public int getZebrane_owoce(int zebrane_owoce){return this.zebrane_owoce;}
+    
+    public int getIle_przerw(){return this.ile_przerw = ile_przerw;}
+    public int getPrzerwa_plus(){return this.ile_przerw = ile_przerw++;}
 
     /*public static void main(String[] args) {
         //Dorosly jacek = new Dorosly("Jacek",2,10,1,1,0);

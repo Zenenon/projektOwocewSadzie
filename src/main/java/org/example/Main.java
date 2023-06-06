@@ -39,9 +39,10 @@ public class Main {
 
 
          while (drzewa_z_owocami > 0)/*||(krzewy > 0)*/{
-            ile_tur++;
+           ile_tur++;
             if(((ile_tur) % ((Integer)jacek.getMax_pracy()+1)) == 0){
-                System.out.println("przerwa ");
+                jacek.getPrzerwa_plus();
+                System.out.println("przerwa " + ((Integer)jacek.getIle_przerw()));
 
             }else{
                 if (tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] == 7) {
@@ -64,11 +65,12 @@ public class Main {
 
 
 
-            ile_tur++;
             }
         System.out.println("Ilosc tur: " + ile_tur);
         System.out.println("Ilosc zebranych owocow: " + jacek.getZebrane_owoce());
-
+        System.out.println("Max pracy: " + jacek.getMax_pracy());
+        System.out.println("Liczba przerw: " + jacek.getIle_przerw());
+        System.out.println("Ostatnia pozycja x = " + jacek.getPozycja_x() + ", y = " + jacek.getPozycja_y());
         }
         static void przypisz_pozycje_duze(int[][] tablica, int pozycja_x, int pozycja_y){
             tablica[pozycja_x][pozycja_y]=7;

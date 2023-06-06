@@ -11,7 +11,7 @@ public class Czlowiek {
     private int zebrane_owoce;
 
 
-    public Czlowiek(String imie, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce) {
+    public Czlowiek(String imie, int zebrane_owoce, int max_pracy, int pozycja_x, int pozycja_y) {
         this.imie = imie;
         //this.szybkosc = szybkosc;
         this.max_pracy = max_pracy;

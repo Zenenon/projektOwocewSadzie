@@ -64,7 +64,7 @@ public class Czlowiek {
     public int getZebrane_owoce(int zebrane_owoce){return this.zebrane_owoce;}
     
     public int getIle_przerw(){return this.ile_przerw = ile_przerw;}
-    public int getPrzerwa_plus(){return this.ile_przerw = ile_przerw++;}
+    public int getPrzerwa_plus(){return this.ile_przerw = ile_przerw + 1;}
 
     /*public static void main(String[] args) {
         //Dorosly jacek = new Dorosly("Jacek",2,10,1,1,0);

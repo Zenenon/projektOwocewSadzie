@@ -12,14 +12,14 @@ public class Czlowiek {
     private int ile_przerw;
 
 
-    public Czlowiek(String imie, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce) {
+    public Czlowiek(String imie, int zebrane_owoce, int max_pracy, int pozycja_x, int pozycja_y, int ile_przerw) {
         this.imie = imie;
         //this.szybkosc = szybkosc;
         this.max_pracy = max_pracy;
         this.pozycja_x = pozycja_x;
         this.pozycja_y = pozycja_y;
         this.zebrane_owoce = zebrane_owoce;
-
+        this.ile_przerw = ile_przerw;
     }
 
     public String getImie() {
@@ -61,10 +61,10 @@ public class Czlowiek {
     public void setZebrane_owoce(int zebrane_owoce){
         this.zebrane_owoce = zebrane_owoce;
     }
-    public int getZebrane_owoce(int zebrane_owoce){return this.zebrane_owoce;}
-    
+    public int getZebrane_owoce(/*int zebrane_owoce*/){return this.zebrane_owoce;}
     public int getIle_przerw(){return this.ile_przerw = ile_przerw;}
-    public int getPrzerwa_plus(){return this.ile_przerw = ile_przerw + 1;}
+    public int getPrzerwa_plus(){return this.ile_przerw = ile_przerw+1;}
+
 
     /*public static void main(String[] args) {
         //Dorosly jacek = new Dorosly("Jacek",2,10,1,1,0);
@@ -81,10 +81,10 @@ public class Czlowiek {
     }*/
 
     //metoda odpowiedzialna za ruch człowieka
-    public void ruch(int pozycja_x, int pozycja_y){
+    public void ruch(/*int pozycja_x, int pozycja_y*/){
 
-        getPozycja_x();
-        getPozycja_y();
+        //getPozycja_x();
+        //getPozycja_y();
         // jezeli wylosuje 0 pozycja maleje o 1, jezeli wylosuje 2 pozycja zwieszka sie o 1
         // jezeli wylosuje 1 pozycja sie nie zmienia
         // jezeli zmiana pozycji mialaby sie rownac wyjsciu poza plansze, to dana pozycja (x lub y) "odbije sie" i zmieni kierunek o 180 stopni
@@ -103,7 +103,7 @@ public class Czlowiek {
             }
         }
         if(x==2){
-            if(pozycja_x>10) {
+            if(pozycja_x>9) {
                 this.pozycja_x--;
             }else{
                 this.pozycja_x++;
@@ -118,7 +118,7 @@ public class Czlowiek {
             }
         }
         if(y==2){
-            if(pozycja_y>10) {
+            if(pozycja_y>9) {
                 this.pozycja_y--;
             }else{
                 this.pozycja_y++;

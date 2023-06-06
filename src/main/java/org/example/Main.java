@@ -38,9 +38,10 @@ public class Main {
         System.out.println(tablica[2][0]);
 
 
-        while (drzewa_z_owocami > 0){
-            if((((Integer)(ile_tur - jacek.getIle_przerw()) % ((Integer)jacek.getMax_pracy())) == 0){
-                System.out.println("ile przerw " + jacek.getIle_przerw());
+         while (drzewa_z_owocami > 0)/*||(krzewy > 0)*/{
+            ile_tur++;
+            if(((ile_tur) % ((Integer)jacek.getMax_pracy()+1)) == 0){
+                System.out.println("przerwa ");
 
             }else{
                 if (tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] == 7) {

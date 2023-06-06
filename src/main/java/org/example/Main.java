@@ -39,23 +39,25 @@ public class Main {
 
 
         while (drzewa_z_owocami > 0){
-            if(tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] == 7){
-                jacek.zbior(20);
-                tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] = 0;
-                drzewa_z_owocami--;
-            } else if (tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] == 8){
-                jacek.zbior(15);
-                tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] = 0;
-                drzewa_z_owocami--;
-            }
-            else if (tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] == 9){
-                jacek.zbior(10);
-                tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] = 0;
-                drzewa_z_owocami--;
-            }
+            if((((Integer)(ile_tur - jacek.getIle_przerw()) % ((Integer)jacek.getMax_pracy())) == 0){
+                System.out.println("ile przerw " + jacek.getIle_przerw());
 
-
-            jacek.ruch();
+            }else{
+                if (tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] == 7) {
+                    jacek.zbior(20);
+                    tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] = 0;
+                    drzewa_z_owocami--;
+                } else if (tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] == 8) {
+                    jacek.zbior(15);
+                    tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] = 0;
+                    drzewa_z_owocami--;
+                } else if (tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] == 9) {
+                    jacek.zbior(10);
+                    tablica[jacek.getPozycja_x()][jacek.getPozycja_y()] = 0;
+                    drzewa_z_owocami--;
+                }
+                jacek.ruch();
+            }
             System.out.println(jacek.getPozycja_x() + " " + jacek.getPozycja_y());
             System.out.println("  ");
 

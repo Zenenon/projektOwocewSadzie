@@ -135,6 +135,7 @@ public class Czlowiek {
         }*/
 
     }
+    //metoda zwiekszajaca ilosc zebranych owocow o zadana wartosc
     public void zbior(int zebrane_owoce){
         this.zebrane_owoce += zebrane_owoce;
     }

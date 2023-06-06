@@ -60,7 +60,7 @@ public class Czlowiek {
     public void setZebrane_owoce(int zebrane_owoce){
         this.zebrane_owoce = zebrane_owoce;
     }
-    public int getZebrane_owoce(int zebrane_owoce){return this.zebrane_owoce;}
+    public int getZebrane_owoce(/*int zebrane_owoce*/){return this.zebrane_owoce;}
 
     /*public static void main(String[] args) {
         //Dorosly jacek = new Dorosly("Jacek",2,10,1,1,0);
@@ -77,7 +77,7 @@ public class Czlowiek {
     }*/
 
     //metoda odpowiedzialna za ruch człowieka
-    public void ruch(int pozycja_x, int pozycja_y){
+    public void ruch(/*int pozycja_x, int pozycja_y*/){
 
         getPozycja_x();
         getPozycja_y();
@@ -99,7 +99,7 @@ public class Czlowiek {
             }
         }
         if(x==2){
-            if(pozycja_x>10) {
+            if(pozycja_x>9) {
                 this.pozycja_x--;
             }else{
                 this.pozycja_x++;
@@ -114,7 +114,7 @@ public class Czlowiek {
             }
         }
         if(y==2){
-            if(pozycja_y>10) {
+            if(pozycja_y>9) {
                 this.pozycja_y--;
             }else{
                 this.pozycja_y++;

@@ -11,7 +11,7 @@ public class Czlowiek {
     private int zebrane_owoce;
 
 
-    public Czlowiek(String imie, int max_pracy, int pozycja_x, int pozycja_y, int zebrane_owoce) {
+    public Czlowiek(String imie, int zebrane_owoce, int max_pracy, int pozycja_x, int pozycja_y) {
         this.imie = imie;
         //this.szybkosc = szybkosc;
         this.max_pracy = max_pracy;
@@ -79,8 +79,8 @@ public class Czlowiek {
     //metoda odpowiedzialna za ruch człowieka
     public void ruch(/*int pozycja_x, int pozycja_y*/){
 
-        getPozycja_x();
-        getPozycja_y();
+        //getPozycja_x();
+        //getPozycja_y();
         // jezeli wylosuje 0 pozycja maleje o 1, jezeli wylosuje 2 pozycja zwieszka sie o 1
         // jezeli wylosuje 1 pozycja sie nie zmienia
         // jezeli zmiana pozycji mialaby sie rownac wyjsciu poza plansze, to dana pozycja (x lub y) "odbije sie" i zmieni kierunek o 180 stopni

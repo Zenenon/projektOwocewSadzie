@@ -49,6 +49,7 @@ public class Main {
         System.out.println(tablica[2][0]);
 //ile_tur-jacek.getIle_przerw()
         while (drzewa_z_owocami > 0)/*||(krzewy > 0)*/{
+            Integer a = ile_tur - jacek.getIle_przerw();
             if(((ile_tur - jacek.getIle_przerw()) % (jacek.getMax_pracy())) == 0){
                 System.out.println("ile przerw " + jacek.getIle_przerw());
                 jacek.getPrzerwa_plus();

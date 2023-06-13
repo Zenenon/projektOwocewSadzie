@@ -1,13 +1,9 @@
 package org.example;
-
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
+import java.io.*;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
-        PrintWriter zapis = new PrintWriter("wyniki.txt");
-        //stworzenie pliku wyniki.txt do zapisu wynikow
-
+    public static void main(String[] args) throws IOException {
+        
         int drzewa_z_owocami = 25;
         //zmienna do zatrzymania dzialania programu, ustawiana recznie
         //zmniejsza sie o jeden za kazdym zebranym drzewem
@@ -131,8 +127,9 @@ public class Main {
         //deklaracja obiektow do symulacji
 
         int duze_drzewo = 20, srednie_drzewo = 15, male_drzewo = 10;
-        System.out.println("'D' - dorosly, 'd' - dziecko, '^' - male drzewo, '+' - srednie drzewo, '*' - duze drzewo");
-        System.out.println("W taki sposob wyswietlaja sie tylko drzewa, na ktorych sa jeszcze owoce");
+
+        System.out.println("\nOznakowanie ludzi oraz drzew, na ktorych sa jeszcze owoce");
+        System.out.println("'D' - dorosly, 'd' - dziecko, '^' - male drzewo, '+' - srednie drzewo, '*' - duze drzewo\n");
         System.out.println("Ustawienie początkowe, tura 0");
 
         while (drzewa_z_owocami > 0){
@@ -145,20 +142,20 @@ public class Main {
                 }
                 for(int j = 0; j < 11; j++) {
                     if (((jacek.getPozycja_x() == j) && (jacek.getPozycja_y() == i)) || ((janusz.getPozycja_x() == j) && (janusz.getPozycja_y() == i))) {
-                        System.out.printf(" D");
+                        System.out.print(" D");
                     } else if (((kacper.getPozycja_x() == j) && (kacper.getPozycja_y() == i)) || ((kuba.getPozycja_x() == j) && (kuba.getPozycja_y() == i))) {
-                        System.out.printf(" d");
+                        System.out.print(" d");
                     } else if (tablica[i][j]==7){
-                        System.out.printf(" *");
+                        System.out.print(" *");
                     } else if (tablica[i][j]==8){
-                        System.out.printf(" +");
+                        System.out.print(" +");
                     } else if (tablica[i][j]==9){
-                        System.out.printf(" ^");
+                        System.out.print(" ^");
                     } else{
-                        System.out.printf(" .");
+                        System.out.print(" .");
                     }
                 }
-                System.out.printf("\n");
+                System.out.print("\n");
 
             }
             if ((ile_tur)%(jacek.getMax_pracy()+1) != 0){
@@ -222,33 +219,41 @@ public class Main {
                     }
                     for(int j = 0; j < 11; j++) {
                         if (((jacek.getPozycja_x() == j) && (jacek.getPozycja_y() == i)) || ((janusz.getPozycja_x() == j) && (janusz.getPozycja_y() == i))) {
-                            System.out.printf(" D");
+                            System.out.print(" D");
                         } else if (((kacper.getPozycja_x() == j) && (kacper.getPozycja_y() == i)) || ((kuba.getPozycja_x() == j) && (kuba.getPozycja_y() == i))) {
-                            System.out.printf(" d");
+                            System.out.print(" d");
                         } else if (tablica[i][j]==7){
-                            System.out.printf(" *");
+                            System.out.print(" *");
                         } else if (tablica[i][j]==8){
-                            System.out.printf(" +");
+                            System.out.print(" +");
                         } else if (tablica[i][j]==9){
-                            System.out.printf(" ^");
+                            System.out.print(" ^");
                         } else{
-                            System.out.printf(" .");
+                            System.out.print(" .");
                         }
                     }
-                    System.out.printf("\n");
+                    System.out.print("\n");
 
                 }
             }
             }
 
 
-        zapis.println(ile_tur + ";" + jacek.getZebrane_owoce()+";"+jacek.getIle_przerw()+";"+ janusz.getZebrane_owoce()+";"+
-        kacper.getZebrane_owoce()+";" + kacper.getIle_przerw() + ";" + kacper.getZjedzone_owoce() + ";"+ kuba.getZebrane_owoce() + ";"
-                + kuba.getIle_przerw() + ";" + kuba.getZjedzone_owoce());
+//        zapis.println(ile_tur + ";" + jacek.getZebrane_owoce()+";"+jacek.getIle_przerw()+";"+ janusz.getZebrane_owoce()+";"+
+//        kacper.getZebrane_owoce()+";" + kacper.getIle_przerw() + ";" + kacper.getZjedzone_owoce() + ";"+ kuba.getZebrane_owoce() + ";"
+//                + kuba.getIle_przerw() + ";" + kuba.getZjedzone_owoce());
         //dane są nadpisywane zamiast byc dopisywane, zostanie to poprawione w finalnej wersji
 
+        //zapis.close();
+        
+        //stworzenie pliku wyniki.txt do zapisu wynikow
+        Writer output;
+        output = new BufferedWriter(new FileWriter("wyniki.txt", true));  //clears file every time
+        output.append(ile_tur + ";" + jacek.getZebrane_owoce()+";"+jacek.getIle_przerw()+";"+ janusz.getZebrane_owoce()+";"+
+                kacper.getZebrane_owoce()+";" + kacper.getIle_przerw() + ";" + kacper.getZjedzone_owoce() + ";"+ kuba.getZebrane_owoce() + ";"
+                + kuba.getIle_przerw() + ";" + kuba.getZjedzone_owoce() + "\n");
+        output.close();
         System.out.println("Program zakończył działanie, wyniki zostały zapisane do pliku wyniki.txt");
-        zapis.close();
         System.exit(0);
         }
 

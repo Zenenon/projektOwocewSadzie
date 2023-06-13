@@ -22,36 +22,36 @@ public class Main {
         //zadeklarowanie i wyzerowanie tablicy, ktora sluzy jako plansza
 
 /*
-        Drzewo wisnia1 = new Drzewo("Wisnia",1,2);
-        Drzewo wisnia2 = new Drzewo("Wisnia",4,6);
-        Drzewo wisnia3 = new Drzewo("Wisnia",6,9);
-        Drzewo wisnia4 = new Drzewo("Wisnia",8,2);
-        Drzewo wisnia5 = new Drzewo("Wisnia",9,1);
+        Drzewo wisnia1 = new Drzewo("Wisnia",1,0);
+        Drzewo wisnia2 = new Drzewo("Wisnia",2,7);
+        Drzewo wisnia3 = new Drzewo("Wisnia",6,3);
+        Drzewo wisnia4 = new Drzewo("Wisnia",5,9);
+        Drzewo wisnia5 = new Drzewo("Wisnia",10,1);
 
-        Drzewo czeresnia1 = new Drzewo("Czeresnia",2,4);
+        Drzewo czeresnia1 = new Drzewo("Czeresnia",9,3);
         Drzewo czeresnia2 = new Drzewo("Czeresnia",4,4);
-        Drzewo czeresnia3 = new Drzewo("Czeresnia",6,4);
-        Drzewo czeresnia4 = new Drzewo("Czeresnia",8,4);
-        Drzewo czeresnia5 = new Drzewo("Czeresnia",10,4);
+        Drzewo czeresnia3 = new Drzewo("Czeresnia",9,9);
+        Drzewo czeresnia4 = new Drzewo("Czeresnia",8,7);
+        Drzewo czeresnia5 = new Drzewo("Czeresnia",1,4);
 
-        Drzewo jablon1 = new Drzewo("Jablon",2,6);
-        Drzewo jablon2 = new Drzewo("Jablon",4,6);
-        Drzewo jablon3 = new Drzewo("Jablon",6,6);
-        Drzewo jablon4 = new Drzewo("Jablon",8,6);
-        Drzewo jablon5 = new Drzewo("Jablon",10,6);
+        Drzewo jablon1 = new Drzewo("Jablon",1,2);
+        Drzewo jablon2 = new Drzewo("Jablon",5,3);
+        Drzewo jablon3 = new Drzewo("Jablon",5,6);
+        Drzewo jablon4 = new Drzewo("Jablon",8,0);
+        Drzewo jablon5 = new Drzewo("Jablon",10,8);
 
-        Drzewo gruszka1 = new Drzewo("Gruszka",2,8);
-        Drzewo gruszka2 = new Drzewo("Gruszka",4,8);
-        Drzewo gruszka3 = new Drzewo("Gruszka",6,8);
-        Drzewo gruszka4 = new Drzewo("Gruszka",8,8);
-        Drzewo gruszka5 = new Drzewo("Gruszka",10,8);
+        Drzewo gruszka1 = new Drzewo("Gruszka",0,2);
+        Drzewo gruszka2 = new Drzewo("Gruszka",7,10);
+        Drzewo gruszka3 = new Drzewo("Gruszka",2,5);
+        Drzewo gruszka4 = new Drzewo("Gruszka",7,4);
+        Drzewo gruszka5 = new Drzewo("Gruszka",3,1);
 
 
-        Drzewo brzoskwinia1 = new Drzewo("Brzoskwinia",2,10);
-        Drzewo brzoskwinia2 = new Drzewo("Brzoskwinia",4,10);
-        Drzewo brzoskwinia3 = new Drzewo("Brzoskwinia",6,10);
-        Drzewo brzoskwinia4 = new Drzewo("Brzoskwinia",8,10);
-        Drzewo brzoskwinia5 = new Drzewo("Brzoskwinia",10,10);
+        Drzewo brzoskwinia1 = new Drzewo("Brzoskwinia",2,8);
+        Drzewo brzoskwinia2 = new Drzewo("Brzoskwinia",4,5);
+        Drzewo brzoskwinia3 = new Drzewo("Brzoskwinia",6,0);
+        Drzewo brzoskwinia4 = new Drzewo("Brzoskwinia",8,2);
+        Drzewo brzoskwinia5 = new Drzewo("Brzoskwinia",7,1);
         // gdy drzewa sa ulozone losowo
 
  */

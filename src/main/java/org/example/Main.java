@@ -239,12 +239,8 @@ public class Main {
 
 
         //stworzenie pliku wyniki.txt do zapisu wynikow
-        Writer output;
-        output = new BufferedWriter(new FileWriter("wyniki.txt", true));  //clears file every time
-        output.append(ile_tur + ";" + jacek.getZebrane_owoce()+";"+jacek.getIle_przerw()+";"+ janusz.getZebrane_owoce()+";"+
-                kacper.getZebrane_owoce()+";" + kacper.getIle_przerw() + ";" + kacper.getZjedzone_owoce() + ";"+ kuba.getZebrane_owoce() + ";"
-                + kuba.getIle_przerw() + ";" + kuba.getZjedzone_owoce() + "\n");
-        output.close();
+        Wyniki wynik = new Wyniki(jacek, janusz, kacper, kuba, ile_tur);
+        wynik.Wypisz_wyniki();
         System.out.println("Program zakończył działanie, wyniki zostały zapisane do pliku wyniki.txt");
         System.exit(0);
     }

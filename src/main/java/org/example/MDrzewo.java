@@ -1,10 +1,10 @@
 package org.example;
 
-public class Drzewo {
+public class MDrzewo {
     private String nazwa;
     private int pozycja_x;
     private int pozycja_y;
-    public Drzewo(String nazwa, int pozycja_x, int pozycja_y) {
+    public MDrzewo(String nazwa, int pozycja_x, int pozycja_y) {
         this.nazwa = nazwa;
         this.pozycja_x = pozycja_x;
         this.pozycja_y = pozycja_y;
@@ -27,9 +27,6 @@ public class Drzewo {
     }
 
     public boolean czy_moze_zebrac(Czlowiek czlowiek){
-        if(czlowiek.getCzy_dorosly()){
-            return true;
-        }
-        else return false;
+        return true;
     }
 }

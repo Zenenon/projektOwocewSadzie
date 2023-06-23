@@ -1,10 +1,10 @@
 package org.example;
 
-public class Drzewo {
+public class SDrzewo {
     private String nazwa;
     private int pozycja_x;
     private int pozycja_y;
-    public Drzewo(String nazwa, int pozycja_x, int pozycja_y) {
+    public SDrzewo(String nazwa, int pozycja_x, int pozycja_y) {
         this.nazwa = nazwa;
         this.pozycja_x = pozycja_x;
         this.pozycja_y = pozycja_y;

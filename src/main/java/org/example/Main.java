@@ -22,17 +22,17 @@ public class Main {
         //zadeklarowanie i wyzerowanie tablicy, ktora sluzy jako plansza
 
 /*
-        Drzewo wisnia1 = new Drzewo("Wisnia",1,0);
-        Drzewo wisnia2 = new Drzewo("Wisnia",2,7);
-        Drzewo wisnia3 = new Drzewo("Wisnia",6,3);
-        Drzewo wisnia4 = new Drzewo("Wisnia",5,9);
-        Drzewo wisnia5 = new Drzewo("Wisnia",10,1);
+        MDrzewo wisnia1 = new MDrzewo("Wisnia",1,0);
+        MDrzewo wisnia2 = new MDrzewo("Wisnia",2,7);
+        MDrzewo wisnia3 = new MDrzewo("Wisnia",6,3);
+        MDrzewo wisnia4 = new MDrzewo("Wisnia",5,9);
+        MDrzewo wisnia5 = new MDrzewo("Wisnia",10,1);
 
-        Drzewo czeresnia1 = new Drzewo("Czeresnia",9,3);
-        Drzewo czeresnia2 = new Drzewo("Czeresnia",4,4);
-        Drzewo czeresnia3 = new Drzewo("Czeresnia",9,9);
-        Drzewo czeresnia4 = new Drzewo("Czeresnia",8,7);
-        Drzewo czeresnia5 = new Drzewo("Czeresnia",1,4);
+        MDrzewo czeresnia1 = new MDrzewo("Czeresnia",9,3);
+        MDrzewo czeresnia2 = new MDrzewo("Czeresnia",4,4);
+        MDrzewo czeresnia3 = new MDrzewo("Czeresnia",9,9);
+        MDrzewo czeresnia4 = new MDrzewo("Czeresnia",8,7);
+        MDrzewo czeresnia5 = new MDrzewo("Czeresnia",1,4);
 
         Drzewo jablon1 = new Drzewo("Jablon",1,2);
         Drzewo jablon2 = new Drzewo("Jablon",5,3);
@@ -40,33 +40,33 @@ public class Main {
         Drzewo jablon4 = new Drzewo("Jablon",8,0);
         Drzewo jablon5 = new Drzewo("Jablon",10,8);
 
-        Drzewo gruszka1 = new Drzewo("Gruszka",0,2);
-        Drzewo gruszka2 = new Drzewo("Gruszka",7,10);
-        Drzewo gruszka3 = new Drzewo("Gruszka",2,5);
-        Drzewo gruszka4 = new Drzewo("Gruszka",7,4);
-        Drzewo gruszka5 = new Drzewo("Gruszka",3,1);
+        SDrzewo gruszka1 = new SDrzewo("Gruszka",0,2);
+        SDrzewo gruszka2 = new SDrzewo("Gruszka",7,10);
+        SDrzewo gruszka3 = new SDrzewo("Gruszka",2,5);
+        SDrzewo gruszka4 = new SDrzewo("Gruszka",7,4);
+        SDrzewo gruszka5 = new SDrzewo("Gruszka",3,1);
 
 
-        Drzewo brzoskwinia1 = new Drzewo("Brzoskwinia",2,8);
-        Drzewo brzoskwinia2 = new Drzewo("Brzoskwinia",4,5);
-        Drzewo brzoskwinia3 = new Drzewo("Brzoskwinia",6,0);
-        Drzewo brzoskwinia4 = new Drzewo("Brzoskwinia",8,2);
-        Drzewo brzoskwinia5 = new Drzewo("Brzoskwinia",7,1);
+        SDrzewo brzoskwinia1 = new SDrzewo("Brzoskwinia",2,8);
+        SDrzewo brzoskwinia2 = new SDrzewo("Brzoskwinia",4,5);
+        SDrzewo brzoskwinia3 = new SDrzewo("Brzoskwinia",6,0);
+        SDrzewo brzoskwinia4 = new SDrzewo("Brzoskwinia",8,2);
+        SDrzewo brzoskwinia5 = new SDrzewo("Brzoskwinia",7,1);
         // gdy drzewa sa ulozone losowo
 */
 
 
-        Drzewo wisnia1 = new Drzewo("Wisnia",1,1);
-        Drzewo wisnia2 = new Drzewo("Wisnia",3,1);
-        Drzewo wisnia3 = new Drzewo("Wisnia",5,1);
-        Drzewo wisnia4 = new Drzewo("Wisnia",7,1);
-        Drzewo wisnia5 = new Drzewo("Wisnia",9,1);
+        MDrzewo wisnia1 = new MDrzewo("Wisnia",1,1);
+        MDrzewo wisnia2 = new MDrzewo("Wisnia",3,1);
+        MDrzewo wisnia3 = new MDrzewo("Wisnia",5,1);
+        MDrzewo wisnia4 = new MDrzewo("Wisnia",7,1);
+        MDrzewo wisnia5 = new MDrzewo("Wisnia",9,1);
 
-        Drzewo czeresnia1 = new Drzewo("Czeresnia",1,3);
-        Drzewo czeresnia2 = new Drzewo("Czeresnia",3,3);
-        Drzewo czeresnia3 = new Drzewo("Czeresnia",5,3);
-        Drzewo czeresnia4 = new Drzewo("Czeresnia",7,3);
-        Drzewo czeresnia5 = new Drzewo("Czeresnia",9,3);
+        MDrzewo czeresnia1 = new MDrzewo("Czeresnia",1,3);
+        MDrzewo czeresnia2 = new MDrzewo("Czeresnia",3,3);
+        MDrzewo czeresnia3 = new MDrzewo("Czeresnia",5,3);
+        MDrzewo czeresnia4 = new MDrzewo("Czeresnia",7,3);
+        MDrzewo czeresnia5 = new MDrzewo("Czeresnia",9,3);
 
         Drzewo jablon1 = new Drzewo("Jablon",1,5);
         Drzewo jablon2 = new Drzewo("Jablon",3,5);
@@ -74,17 +74,17 @@ public class Main {
         Drzewo jablon4 = new Drzewo("Jablon",7,5);
         Drzewo jablon5 = new Drzewo("Jablon",9,5);
 
-        Drzewo gruszka1 = new Drzewo("Gruszka",1,7);
-        Drzewo gruszka2 = new Drzewo("Gruszka",3,7);
-        Drzewo gruszka3 = new Drzewo("Gruszka",5,7);
-        Drzewo gruszka4 = new Drzewo("Gruszka",7,7);
-        Drzewo gruszka5 = new Drzewo("Gruszka",9,7);
+        SDrzewo gruszka1 = new SDrzewo("Gruszka",1,7);
+        SDrzewo gruszka2 = new SDrzewo("Gruszka",3,7);
+        SDrzewo gruszka3 = new SDrzewo("Gruszka",5,7);
+        SDrzewo gruszka4 = new SDrzewo("Gruszka",7,7);
+        SDrzewo gruszka5 = new SDrzewo("Gruszka",9,7);
 
-        Drzewo brzoskwinia1 = new Drzewo("Brzoskwinia",1,9);
-        Drzewo brzoskwinia2 = new Drzewo("Brzoskwinia",3,9);
-        Drzewo brzoskwinia3 = new Drzewo("Brzoskwinia",5,9);
-        Drzewo brzoskwinia4 = new Drzewo("Brzoskwinia",7,9);
-        Drzewo brzoskwinia5 = new Drzewo("Brzoskwinia",9,9);
+        SDrzewo brzoskwinia1 = new SDrzewo("Brzoskwinia",1,9);
+        SDrzewo brzoskwinia2 = new SDrzewo("Brzoskwinia",3,9);
+        SDrzewo brzoskwinia3 = new SDrzewo("Brzoskwinia",5,9);
+        SDrzewo brzoskwinia4 = new SDrzewo("Brzoskwinia",7,9);
+        SDrzewo brzoskwinia5 = new SDrzewo("Brzoskwinia",9,9);
         // gdy drzewa są ulozone rowno
 
 
@@ -118,10 +118,10 @@ public class Main {
         przypisz_pozycje_srednie(tablica, brzoskwinia4.getPozycja_x(), brzoskwinia4.getPozycja_y());
         przypisz_pozycje_srednie(tablica, brzoskwinia5.getPozycja_x(), brzoskwinia5.getPozycja_y());
 
-        Dorosly jacek = new Dorosly("Jacek",0,30,1,1,0);
-        Dorosly janusz = new Dorosly("Janusz",0,40,4,4,0);
-        Dziecko kacper = new Dziecko("Kacper",0,0,20,1,3,0);
-        Dziecko kuba = new Dziecko("Kuba",0,0,20,2,3,0);
+        Dorosly jacek = new Dorosly("Jacek",0,30,1,1,0, true);
+        Dorosly janusz = new Dorosly("Janusz",0,40,4,4,0, true);
+        Dziecko kacper = new Dziecko("Kacper",0,0,20,1,3,0,false);
+        Dziecko kuba = new Dziecko("Kuba",0,0,20,2,3,0,false);
         //deklaracja obiektow do symulacji
 
         int duze_drzewo = 20, srednie_drzewo = 15, male_drzewo = 10;
@@ -157,7 +157,7 @@ public class Main {
 
             }
             if ((ile_tur)%(jacek.getMax_pracy()+1) != 0){
-                drzewa_z_owocami = zbieranie_owocow(drzewa_z_owocami, tablica, jacek, duze_drzewo, srednie_drzewo, male_drzewo);
+                drzewa_z_owocami = zbieranie_owocow(drzewa_z_owocami, tablica, jacek, duze_drzewo, srednie_drzewo, male_drzewo,jablon1,gruszka1,wisnia1);
                 //wywolanie metody odpowiedzialnej za zbior oraz liczenie ilosci pozostalych drzew
                 jacek.ruch();
             }
@@ -167,7 +167,7 @@ public class Main {
             //poruszanie sie czlowieka polaczone z warunkiem przerwy
 
             if ((ile_tur)%(janusz.getMax_pracy()+1) != 0){
-                drzewa_z_owocami = zbieranie_owocow(drzewa_z_owocami, tablica, janusz, duze_drzewo, srednie_drzewo, male_drzewo);
+                drzewa_z_owocami = zbieranie_owocow(drzewa_z_owocami, tablica, janusz, duze_drzewo, srednie_drzewo, male_drzewo,jablon1,gruszka1,wisnia1);
                 janusz.ruch();
             }
             else {
@@ -175,7 +175,7 @@ public class Main {
             }
 
             if ((ile_tur)%(kacper.getMax_pracy()+1) != 0){
-                drzewa_z_owocami = zbieranie_owocow_dziecko(drzewa_z_owocami,tablica,kacper,male_drzewo);
+                drzewa_z_owocami = zbieranie_owocow(drzewa_z_owocami, tablica, kacper, duze_drzewo, srednie_drzewo, male_drzewo,jablon1,gruszka1,wisnia1);
                 kacper.ruch();
             }
             else {
@@ -183,7 +183,7 @@ public class Main {
             }
             //analogicznie jak dla doroslego, ale ze zmieniona metodo do zbierania owocy
             if ((ile_tur)%(kuba.getMax_pracy()+1) != 0){
-                drzewa_z_owocami = zbieranie_owocow_dziecko(drzewa_z_owocami,tablica,kuba,male_drzewo);
+                drzewa_z_owocami = zbieranie_owocow(drzewa_z_owocami, tablica, kuba, duze_drzewo, srednie_drzewo, male_drzewo,jablon1,gruszka1,wisnia1);
                 kuba.ruch();
             }
             else {
@@ -245,8 +245,8 @@ public class Main {
     }
 
     //metoda odpowiadajaca za liczenie drzew oraz zbior owocow
-    private static int zbieranie_owocow(int drzewa_z_owocami, int[][] tablica, Czlowiek czlowiek, int duze_drzewo, int srednie_drzewo, int male_drzewo) {
-        if(tablica[czlowiek.getPozycja_x()][czlowiek.getPozycja_y()] == 7){
+    private static int zbieranie_owocow(int drzewa_z_owocami, int[][] tablica, Czlowiek czlowiek, int duze_drzewo, int srednie_drzewo, int male_drzewo, Drzewo duze, SDrzewo srednie, MDrzewo male) {
+        if((tablica[czlowiek.getPozycja_x()][czlowiek.getPozycja_y()] == 7) && duze.czy_moze_zebrac(czlowiek)){
             czlowiek.zbior(duze_drzewo);
             tablica[czlowiek.getPozycja_x()][czlowiek.getPozycja_y()] = 1;
             drzewa_z_owocami--;
@@ -254,14 +254,14 @@ public class Main {
             //jesli tak, zbieram owoce(deklaruje z gory, ile owocy moze miec drzewo duze,srednie,male i ta ilosc dodaje do pola zebrane_owoce czlowieka
             //zmieniam wartosc tego pola w tablicy na 1 - oznaczam, ze to drzewo zostalo zebrane
             //zmniejszam zmienna od ilosci drzew o jeden
-        } else if (tablica[czlowiek.getPozycja_x()][czlowiek.getPozycja_y()] == 8){
+        } else if (tablica[czlowiek.getPozycja_x()][czlowiek.getPozycja_y()] == 8 && srednie.czy_moze_zebrac(czlowiek)){
             czlowiek.zbior(srednie_drzewo);
             tablica[czlowiek.getPozycja_x()][czlowiek.getPozycja_y()] = 1;
             drzewa_z_owocami--;
             //sprawdzam, czy drzewo jest srednie( czy na obecnej pozycji w tablicy jest 8-wstepne oznaczenie sredniego drzewa
             //reszta analogicznie
         }
-        else if (tablica[czlowiek.getPozycja_x()][czlowiek.getPozycja_y()] == 9){
+        else if (tablica[czlowiek.getPozycja_x()][czlowiek.getPozycja_y()] == 9 && male.czy_moze_zebrac(czlowiek)){
             czlowiek.zbior(male_drzewo);
             tablica[czlowiek.getPozycja_x()][czlowiek.getPozycja_y()] = 1;
             drzewa_z_owocami--;
@@ -270,15 +270,6 @@ public class Main {
         //zeby w latwy sposob moc zmieniac ta zmienna, nasza metoda zwraca int
     }
 
-    private static int zbieranie_owocow_dziecko(int drzewa_z_owocami, int[][] tablica, Dziecko dziecko, int male_drzewo) {
-        if (tablica[dziecko.getPozycja_x()][dziecko.getPozycja_y()] == 9){
-            dziecko.zbior(male_drzewo);
-            tablica[dziecko.getPozycja_x()][dziecko.getPozycja_y()] = 1;
-            drzewa_z_owocami--;
-        }
-        return drzewa_z_owocami;
-        //analogicznie jak wyzej, z ograniczeniem tylko do niskich drzew
-    }
 
     static void przypisz_pozycje_duze(int[][] tablica, int pozycja_x, int pozycja_y){
         tablica[pozycja_x][pozycja_y]=7;

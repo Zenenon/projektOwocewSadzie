@@ -9,14 +9,16 @@ public abstract class Czlowiek {
     private int pozycja_x;
     private int pozycja_y;
     private int ile_przerw;
+    private boolean czy_dorosly;
 
-    public Czlowiek(String imie, int zebrane_owoce, int max_pracy, int pozycja_x, int pozycja_y, int ile_przerw) {
+    public Czlowiek(String imie, int zebrane_owoce, int max_pracy, int pozycja_x, int pozycja_y, int ile_przerw, boolean czy_dorosly) {
         this.imie = imie;
         this.zebrane_owoce = zebrane_owoce;
         this.max_pracy = max_pracy;
         this.pozycja_x = pozycja_x;
         this.pozycja_y = pozycja_y;
         this.ile_przerw = ile_przerw;
+        this.czy_dorosly = czy_dorosly;
     }
 
     public String getImie() {
@@ -65,6 +67,9 @@ public abstract class Czlowiek {
 
     public void setIle_przerw(int ile_przerw) {
         this.ile_przerw = ile_przerw;
+    }
+    public  boolean getCzy_dorosly(){
+        return this.czy_dorosly;
     }
 
     //metoda odpowiedzialna za ruch człowieka

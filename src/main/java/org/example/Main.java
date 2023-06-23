@@ -56,7 +56,6 @@ public class Main {
 */
 
 
-
         Drzewo wisnia1 = new Drzewo("Wisnia",1,1);
         Drzewo wisnia2 = new Drzewo("Wisnia",3,1);
         Drzewo wisnia3 = new Drzewo("Wisnia",5,1);

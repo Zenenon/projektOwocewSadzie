@@ -30,3 +30,4 @@ public class Wyniki {
         output.close();
     }
 }
+

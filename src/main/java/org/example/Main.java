@@ -139,9 +139,9 @@ public class Main {
                     System.out.print(" " + i);
                 }
                 for(int j = 0; j < 11; j++) {
-                    if (((jacek.getPozycja_x() == j) && (jacek.getPozycja_y() == i)) || ((janusz.getPozycja_x() == j) && (janusz.getPozycja_y() == i))) {
+                    if (((jacek.getPozycja_x() == i) && (jacek.getPozycja_y() == j)) || ((janusz.getPozycja_x() == i) && (janusz.getPozycja_y() == j))) {
                         System.out.print(" D");
-                    } else if (((kacper.getPozycja_x() == j) && (kacper.getPozycja_y() == i)) || ((kuba.getPozycja_x() == j) && (kuba.getPozycja_y() == i))) {
+                    } else if (((kacper.getPozycja_x() == i) && (kacper.getPozycja_y() == j)) || ((kuba.getPozycja_x() == i) && (kuba.getPozycja_y() == j))) {
                         System.out.print(" d");
                     } else if (tablica[i][j]==7){
                         System.out.print(" *");
@@ -204,36 +204,12 @@ public class Main {
                 kuba.setZjedzone_owoce(kuba.getZjedzone_owoce()+ 2);
             }
 
-            System.out.printf("\n tura " + ile_tur + "\n");
-            ile_tur++;
 
-            if(drzewa_z_owocami == 0) {
-                System.out.print("    0 1 2 3 4 5 6 7 8 9 10\n");
-                for(int i=0; i<11; i++){
-                    if(i != 10) {
-                        System.out.print(" " + i + " ");
-                    }else{
-                        System.out.print(" " + i);
-                    }
-                    for(int j = 0; j < 11; j++) {
-                        if (((jacek.getPozycja_x() == j) && (jacek.getPozycja_y() == i)) || ((janusz.getPozycja_x() == j) && (janusz.getPozycja_y() == i))) {
-                            System.out.print(" D");
-                        } else if (((kacper.getPozycja_x() == j) && (kacper.getPozycja_y() == i)) || ((kuba.getPozycja_x() == j) && (kuba.getPozycja_y() == i))) {
-                            System.out.print(" d");
-                        } else if (tablica[i][j]==7){
-                            System.out.print(" *");
-                        } else if (tablica[i][j]==8){
-                            System.out.print(" +");
-                        } else if (tablica[i][j]==9){
-                            System.out.print(" ^");
-                        } else{
-                            System.out.print(" .");
-                        }
-                    }
-                    System.out.print("\n");
-
-                }
+            if(drzewa_z_owocami > 0){
+                System.out.printf("\n tura " + ile_tur + "\n");
+                ile_tur++;
             }
+
         }
 
 
